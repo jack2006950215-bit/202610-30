@@ -9,12 +9,14 @@
     :root{--bg:#f6f3ee;--paper:#fffdf9;--ink:#393c35;--muted:#92958c;--line:#eeece5;--sage:#a8b9a2;--sage-dark:#6d806a;--peach:#e8b5a5;--lav:#c5bad9;--yellow:#e7d49a;--shadow:0 14px 34px rgba(76,74,60,.07)}
     *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-rounded,"Noto Sans TC","PingFang TC",system-ui,sans-serif;font-size:14px;-webkit-font-smoothing:antialiased}button,input,select{font:inherit}button{cursor:pointer}.app{max-width:480px;min-height:100vh;margin:auto;background:var(--bg);padding:0 20px 100px;position:relative;overflow:hidden}.top{display:flex;align-items:center;justify-content:space-between;padding:26px 0 20px}.brand{font-size:14px;color:var(--sage-dark);font-weight:700;letter-spacing:.12em}.brand span{font-size:20px;margin-right:6px}.avatar{width:38px;height:38px;border-radius:50%;background:#e8ddd0;display:grid;place-items:center;font-size:19px}.greeting{font-size:13px;color:var(--muted);margin:4px 0 2px}.heading{font-size:28px;letter-spacing:-.04em;margin:0;font-weight:700}.datebar{display:flex;align-items:center;justify-content:space-between;margin:23px 0 18px}.date-label{font-size:15px;font-weight:700}.date-label small{font-size:12px;color:var(--muted);font-weight:500;margin-left:7px}.date-controls{display:flex;gap:8px}.icon-btn{border:1px solid var(--line);background:var(--paper);color:#6d7169;border-radius:12px;width:34px;height:34px}.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;margin-bottom:22px}.day{height:59px;border:0;background:transparent;border-radius:16px;color:#83877e;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}.day b{font-size:12px;font-weight:500}.day span{font-size:15px;font-weight:700;color:var(--ink)}.day.active{background:var(--sage-dark);color:white;box-shadow:0 5px 14px #6d806a38}.day.active span{color:white}.day.has:after{content:"";width:4px;height:4px;border-radius:50%;background:var(--peach);position:absolute;transform:translateY(23px)}.day{position:relative}.day.active.has:after{background:#f5d5c8}.summary{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-bottom:22px}.summary-card{background:var(--paper);border:1px solid #f0eee7;border-radius:18px;padding:14px 15px;display:flex;align-items:center;gap:11px}.sum-icon{height:36px;width:36px;display:grid;place-items:center;border-radius:13px;background:#edf1e9;font-size:17px}.summary-card:nth-child(2) .sum-icon{background:#f8eee7}.sum-label{font-size:11px;color:var(--muted);margin-bottom:2px}.sum-number{font-size:18px;font-weight:700}.section-head{display:flex;align-items:center;justify-content:space-between;margin:23px 0 12px}.section-head h2{font-size:16px;margin:0}.section-head .sub{font-size:11px;color:var(--muted);margin-left:7px;font-weight:500}.text-btn{border:0;background:transparent;color:var(--sage-dark);font-size:12px;font-weight:700}.deadline{display:flex;align-items:center;gap:12px;background:#fbf2e4;border-radius:16px;padding:13px 14px;margin-bottom:17px}.deadline-icon{width:34px;height:34px;border-radius:12px;background:#f3e3c5;display:grid;place-items:center}.deadline-copy{flex:1}.deadline-copy b{font-size:12px;display:block;margin-bottom:3px}.deadline-copy span{font-size:11px;color:#92876d}.deadline-count{font-size:11px;font-weight:700;color:#9a7950;background:#f6e8ce;padding:6px 9px;border-radius:20px}.timeline{background:var(--paper);border:1px solid #f0eee7;border-radius:20px;padding:7px 15px;box-shadow:var(--shadow)}.event{display:grid;grid-template-columns:52px 3px 1fr;gap:11px;min-height:71px;padding:11px 0;position:relative}.event:not(:last-child):after{content:"";position:absolute;left:63px;top:27px;bottom:-8px;width:1px;background:#efeee8}.time{font-size:11px;color:var(--muted);padding-top:5px}.event-bar{width:3px;border-radius:5px;background:var(--sage);height:100%;min-height:42px;z-index:1}.event-info{padding:3px 0 2px 1px}.event-title{font-weight:700;font-size:13px}.event-meta{color:var(--muted);font-size:11px;margin-top:5px}.event-tag{float:right;font-size:10px;color:#85927f;background:#eff2eb;border-radius:12px;padding:4px 7px;margin-top:-1px}.tasks{background:var(--paper);border:1px solid #f0eee7;border-radius:20px;padding:3px 15px}.task{display:flex;align-items:center;gap:11px;padding:13px 0;border-bottom:1px solid #f0eee7}.task:last-child{border-bottom:0}.check{width:19px;height:19px;border:1.5px solid #d5d8ce;border-radius:7px;background:transparent;display:grid;place-items:center;color:white;flex:none}.task.done .check{background:var(--sage);border-color:var(--sage)}.task.done .task-name{text-decoration:line-through;color:#aaa}.task-name{font-weight:600;font-size:12px}.task-due{font-size:10px;color:#a28b69;margin-top:4px}.task-due.soon{color:#c17f69}.fab{position:fixed;bottom:86px;left:50%;transform:translateX(174px);width:54px;height:54px;border:0;border-radius:19px;background:var(--sage-dark);color:white;font-size:25px;box-shadow:0 8px 20px #6d806a55;z-index:3}.nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:min(480px,100%);height:70px;background:#fffdf9f2;backdrop-filter:blur(10px);border-top:1px solid #eeece5;display:flex;justify-content:space-around;align-items:center;padding-bottom:5px;z-index:2}.nav-item{border:0;background:none;color:#a3a59d;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:10px}.nav-item span{font-size:18px}.nav-item.active{color:var(--sage-dark);font-weight:700}.toast{position:fixed;bottom:83px;left:50%;transform:translate(-50%,15px);background:#393c35;color:white;padding:10px 15px;border-radius:20px;font-size:12px;opacity:0;pointer-events:none;transition:.25s;z-index:8;white-space:nowrap}.toast.show{opacity:1;transform:translate(-50%,0)}
     .modal-backdrop{display:none;position:fixed;inset:0;background:#292c2680;z-index:5;align-items:flex-end;justify-content:center}.modal-backdrop.open{display:flex}.modal{background:var(--paper);width:min(480px,100%);border-radius:24px 24px 0 0;padding:20px 22px 30px;max-height:88vh;overflow:auto}.modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:17px}.modal-head h3{font-size:18px;margin:0}.close{background:#f3f1eb;border:0;border-radius:50%;width:31px;height:31px;font-size:17px;color:#777}.field{margin:13px 0}.field label{display:block;color:#75796f;font-size:11px;font-weight:700;margin-bottom:7px}.field input,.field select{width:100%;height:43px;border:1px solid #e9e7df;border-radius:12px;background:#fffefa;padding:0 12px;color:var(--ink);outline:none}.field input:focus,.field select:focus{border-color:#a8b9a2}.row{display:grid;grid-template-columns:1fr 1fr;gap:11px}.seg{display:flex;gap:7px}.seg button{flex:1;border:1px solid #e9e7df;background:white;color:#777;border-radius:11px;padding:9px 4px;font-size:11px}.seg button.selected{background:#edf1e9;border-color:#b8c5b2;color:#53664f;font-weight:700}.color-row{display:flex;gap:10px}.swatch{width:29px;height:29px;border-radius:50%;border:2px solid white;box-shadow:0 0 0 1px #e6e4dd}.swatch.selected{box-shadow:0 0 0 2px var(--sage-dark)}.form-submit{width:100%;border:0;border-radius:13px;background:var(--sage-dark);color:white;padding:13px;font-weight:700;margin-top:9px}.empty{text-align:center;color:var(--muted);padding:25px 8px;font-size:12px}
-    @media(min-width:600px){body{padding:20px 0}.app{border-radius:26px;min-height:calc(100vh - 40px);box-shadow:0 20px 60px #42443712}.nav{bottom:20px;border-radius:0 0 26px 26px}.fab{bottom:106px}}
+    @media(min-width:600px){body{padding:20px 0}.app{border-radius:26px;min-height:calc(100vh - 40px);box-shadow:0 20px 60px #42443712}.nav{bottom:20px;border-radius:0 0 26px 26px}.fab{bottom:106px}}    .auth-button{border:1px solid #e5e8df;background:var(--paper);color:var(--sage-dark);border-radius:12px;padding:9px 13px;font-size:12px;font-weight:700;max-width:220px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .auth-button:disabled{opacity:.65;cursor:wait}
+
   </style>
 </head>
 <body>
 <div class="app">
-  <header class="top"><div class="brand"><span>☁</span>日常・好好安排</div><div class="avatar" aria-label="個人檔案">🌿</div></header>
+  <header class="top"><div class="brand"><span>☁</span>日常・好好安排</div><button class="auth-button" id="authButton" type="button">使用 Google 登入</button></header>
   <p class="greeting">早安，今天也慢慢來</p><h1 class="heading">把日子過得剛剛好</h1>
   <div class="datebar"><div class="date-label" id="monthTitle">10月 30日 <small>星期五</small></div><div class="date-controls"><button class="icon-btn" id="prevWeek" aria-label="上一週">‹</button><button class="icon-btn" id="todayBtn" aria-label="回到今天">⌂</button><button class="icon-btn" id="nextWeek" aria-label="下一週">›</button></div></div>
   <div class="week" id="week"></div>
@@ -60,6 +62,52 @@
  document.getElementById('closeModal').onclick=closeModal;backdrop.onclick=e=>{if(e.target===backdrop)closeModal()};document.getElementById('fab').onclick=()=>openForm('event');document.getElementById('addEventTop').onclick=()=>openForm('event');document.getElementById('addTaskTop').onclick=()=>openForm('task');document.getElementById('allTasks').onclick=()=>{document.getElementById('tasks').scrollIntoView({behavior:'smooth'});toast('這裡是你的待辦清單')};document.getElementById('prevWeek').onclick=()=>{selected.setDate(selected.getDate()-7);render()};document.getElementById('nextWeek').onclick=()=>{selected.setDate(selected.getDate()+7);render()};document.getElementById('todayBtn').onclick=()=>{selected=new Date(base);render()};document.querySelectorAll('.nav-item').forEach(b=>b.onclick=()=>{document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));b.classList.add('active');if(b.dataset.page==='行程'){document.getElementById('timeline').scrollIntoView({behavior:'smooth'});toast('查看行程')}else if(b.dataset.page==='待辦'){document.getElementById('tasks').scrollIntoView({behavior:'smooth'});toast('查看待辦')}else if(b.dataset.page==='我的')toast('個人設定即將推出');else window.scrollTo({top:0,behavior:'smooth'})});
  render();
 })();
+</script><script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/13.3.0/firebase-app.js';
+  import { getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from 'https://www.gstatic.com/firebasejs/13.3.0/firebase-auth.js';
+
+  const firebaseApp = initializeApp({
+    apiKey: 'AIzaSyAuAjsVhn8VyMXWsNV5vZMQk7dyM0fzVuM',
+    authDomain: 'project-5191264609342590922.firebaseapp.com',
+    projectId: 'project-5191264609342590922',
+    storageBucket: 'project-5191264609342590922.firebasestorage.app',
+    messagingSenderId: '115197094121',
+    appId: '1:115197094121:web:94287081bfb0383baba878',
+    measurementId: 'G-2FSJ7DTBEV'
+  });
+  const auth = getAuth(firebaseApp);
+  const authButton = document.getElementById('authButton');
+  let currentUser = null;
+
+  onAuthStateChanged(auth, user => {
+    currentUser = user;
+    authButton.disabled = false;
+    authButton.textContent = user ? '登出 · ' + (user.displayName || user.email || 'Google 帳號') : '使用 Google 登入';
+    authButton.title = user ? (user.email || user.displayName || '已登入') : '使用 Google 帳號登入';
+  });
+
+  authButton.addEventListener('click', async () => {
+    if (location.protocol === 'file:') {
+      authButton.title = '請先透過 localhost 或 Firebase Hosting 開啟網頁';
+      authButton.textContent = '請改用 localhost 開啟';
+      return;
+    }
+    authButton.disabled = true;
+    try {
+      if (currentUser) await signOut(auth);
+      else await signInWithPopup(auth, new GoogleAuthProvider());
+    } catch (error) {
+      authButton.title = error.code === 'auth/operation-not-allowed'
+        ? 'Firebase 尚未啟用 Google 登入'
+        : error.code === 'auth/unauthorized-domain'
+          ? '目前網站網域尚未加入 Firebase 授權網域'
+          : '登入失敗：' + (error.message || error.code || '請稍後再試');
+      authButton.textContent = '登入失敗，查看提示';
+    } finally {
+      authButton.disabled = false;
+    }
+  });
 </script>
+
 </body>
 </html>
